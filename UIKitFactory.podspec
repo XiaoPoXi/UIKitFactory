@@ -51,5 +51,5 @@ TODO: Add long description of the pod here.
   # s.frameworks = 'UIKit', 'MapKit'
   
   #引入第三方依赖库
-   s.dependency 'ReactiveObjC',
+#   s.dependency 'ReactiveObjC',
 end
