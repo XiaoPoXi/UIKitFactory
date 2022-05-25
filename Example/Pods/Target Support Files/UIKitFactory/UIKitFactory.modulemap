@@ -1,0 +1,6 @@
+framework module UIKitFactory {
+  umbrella header "UIKitFactory-umbrella.h"
+
+  export *
+  module * { export * }
+}

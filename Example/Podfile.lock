@@ -1,0 +1,16 @@
+PODS:
+  - UIKitFactory (0.1.0)
+
+DEPENDENCIES:
+  - UIKitFactory (from `../`)
+
+EXTERNAL SOURCES:
+  UIKitFactory:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  UIKitFactory: e1bbe4230275dc16f4c900c3ac87813c088e42bc
+
+PODFILE CHECKSUM: f729d47f349f8a887e6cd9ad2abaad60bfbfd830
+
+COCOAPODS: 1.11.2

@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		044163E52E2CCDE36FF08C91 /* Pods-UIKitFactory_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIKitFactory_Example.release.xcconfig"; path = "Target Support Files/Pods-UIKitFactory_Example/Pods-UIKitFactory_Example.release.xcconfig"; sourceTree = "<group>"; };
 		04EAF2DBC81CF8C84E683E85 /* Pods-UIKitFactory_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIKitFactory_Example.debug.xcconfig"; path = "Target Support Files/Pods-UIKitFactory_Example/Pods-UIKitFactory_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		154C5DA4255AD4656CABCCD9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		154C5DA4255AD4656CABCCD9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		300E8878D3660BE9625139A6 /* Pods-UIKitFactory_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIKitFactory_Tests.debug.xcconfig"; path = "Target Support Files/Pods-UIKitFactory_Tests/Pods-UIKitFactory_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* UIKitFactory_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIKitFactory_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -62,10 +62,10 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		734AF02AD159AC22DBF4CFD2 /* Pods-UIKitFactory_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIKitFactory_Tests.release.xcconfig"; path = "Target Support Files/Pods-UIKitFactory_Tests/Pods-UIKitFactory_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		7633A72E2B797AD6755FD5A2 /* UIKitFactory.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = UIKitFactory.podspec; path = ../UIKitFactory.podspec; sourceTree = "<group>"; };
+		7633A72E2B797AD6755FD5A2 /* UIKitFactory.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = UIKitFactory.podspec; path = ../UIKitFactory.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		895DBC3B24CA655E21898535 /* Pods_UIKitFactory_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIKitFactory_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C7B850937BB56D823750C60B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C7B850937BB56D823750C60B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E955F794157EDB7B405CA73E /* Pods_UIKitFactory_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIKitFactory_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -193,7 +193,6 @@
 				300E8878D3660BE9625139A6 /* Pods-UIKitFactory_Tests.debug.xcconfig */,
 				734AF02AD159AC22DBF4CFD2 /* Pods-UIKitFactory_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
