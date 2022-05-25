@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'UIKitFactory_Example' do
+  pod 'UIKitFactory', :path => '../'
+
+  target 'UIKitFactory_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
